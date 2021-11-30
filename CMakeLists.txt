@@ -74,6 +74,6 @@ target_link_libraries(NetGen
 						${CMAKE_THREAD_LIBS_INIT}
             			#${ANN_LIBRARY}
 						${X11_LIBRARIES}
-						${CUDA_cublas_LIBRARY}
+						#${CUDA_cublas_LIBRARY}
 						${OpenCV_LIBS}
 		  )
